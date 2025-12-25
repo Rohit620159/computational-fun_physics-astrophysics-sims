@@ -20,6 +20,15 @@ A collection of physics-based simulations and data pipelines developed for explo
 * **Context:** Data pipeline for the **Fontenla-Avrett-Loeser (FALC)** semi-empirical model of the solar atmosphere.
 * **Function:** Parses, cleans, and structures raw FALC data (Temperature, Density, Ionization fractions) for use in radiative transfer simulations.
 
+### 5. Electrodynamics & Photonics (FDTD Maxwell Solvers) ⚡
+**Files:** `Modulated_Permitivity_FDTD_Maxwell_light.py`, `Sophisticated_MetaMaterials...py`
+* **Physics:** Finite-Difference Time-Domain (FDTD) simulations of light propagating through materials with modulated permittivity.
+* **Application:** Modeling **metamaterials** and optical wave behavior in complex media.
+
+### 6. Classical Mechanics & Number Theory 🎲
+**Files:** `Gravity_influenced_motion.py`, `Collatz_conjecture.py`
+* **Physics:** N-body gravity simulations and visualizations of the Collatz (3n+1) stopping times.
+
 ## 🛠️ Tech Stack
 * **Compute:** Python 3.11, NumPy, SciPy
 * **Acceleration:** Numba (JIT), Multiprocessing
