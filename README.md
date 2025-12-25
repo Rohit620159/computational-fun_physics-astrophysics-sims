@@ -25,7 +25,12 @@ A collection of physics-based simulations and data pipelines developed for explo
 * **Physics:** Finite-Difference Time-Domain (FDTD) simulations of light propagating through materials with modulated permittivity.
 * **Application:** Modeling **metamaterials** and optical wave behavior in complex media.
 
-### 6. Classical Mechanics & Number Theory 🎲
+### 6. Keplerian Differential Rotation (Galactic Christmas Tree) 🎄
+**Files:** `galactic_tree.py`, `galactic_tree.mp4`
+* **Physics:** Simulates **orbital mechanics** and **differential rotation** within a conical volume. It demonstrates **Kepler's 3rd Law** ($v \propto r^{-1/2}$), where inner particles orbit significantly faster than outer ones, mimicking the rotation curves of spiral galaxies and accretion disks.
+* **Visualization:** A 3D particle system that starts as a cone (Christmas Tree) and naturally shears into spiral arms due to the conservation of angular momentum.
+
+### 7. Classical Mechanics & Number Theory 🎲
 **Files:** `Gravity_influenced_motion.py`, `Collatz_conjecture.py`
 * **Physics:** N-body gravity simulations and visualizations of the Collatz (3n+1) stopping times.
 
