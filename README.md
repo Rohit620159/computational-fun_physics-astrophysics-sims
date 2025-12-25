@@ -1,0 +1,30 @@
+# Computational Astrophysics Simulations
+
+A collection of physics-based simulations and data pipelines developed for exploring stellar atmospheres, magnetohydrodynamics (MHD), and non-equilibrium thermodynamics.
+
+## 📂 Project Modules
+
+### 1. Non-Equilibrium Phase Transition (Snowflake)
+**Files:** `snowflake_sim.py`, `cosmic_snowflake_final.mp4`
+* **Physics:** Solves the **Ginzburg-Landau phase-field equations** coupled with a heat diffusion equation.
+* **Method:** Finite-difference scalar field evolution using **Numba** for JIT-compiled parallelization on HPC clusters.
+* **Key Feature:** Simulates dendritic solidification where macroscopic symmetry (6-fold) emerges from microscopic surface tension anisotropy.
+
+### 2. Solar Atmosphere Dynamics (Blob Ejection)
+**Files:** `blob_animation_solar.py`, `run_solar_blob_sim.py`
+* **Physics:** Simulation of plasma instabilities (likely Rayleigh-Taylor or convective overshooting) in the solar photosphere/chromosphere.
+* **Visualization:** Animated evolution of plasma density/temperature perturbations ("blobs") moving through stratified solar layers.
+
+### 3. FALC Model Atmosphere Pipeline
+**Files:** `parse_falc.py`, `prepare_atmosphere.py`, `falc_model.csv`
+* **Context:** Data pipeline for the **Fontenla-Avrett-Loeser (FALC)** semi-empirical model of the solar atmosphere.
+* **Function:** Parses, cleans, and structures raw FALC data (Temperature, Density, Ionization fractions) for use in radiative transfer simulations.
+
+## 🛠️ Tech Stack
+* **Compute:** Python 3.11, NumPy, SciPy
+* **Acceleration:** Numba (JIT), Multiprocessing
+* **Visualization:** Matplotlib, FFmpeg
+* **Environment:** HPC Cluster (Hydra/CFA)
+
+---
+*Author: Rohit Raj*
